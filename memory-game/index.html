@@ -13,14 +13,9 @@
 </head>
 <body>
   <h1>Memory Game</h1>
-  <p>Welcome to the Memory Game. Let's see if you're up for the challenge!
-  </p>
-  <button  id="startBtn" onclick="startGame()">
-      Start
-  </button>
-  <button  id="stopBtn" class="hidden"  onclick="stopGame()">
-      Stop
-  </button>
+  <p>Welcome to the Memory Game. Let's see if you're up for the challenge!</p>
+  <button  onclick="startGame()" id="startBtn" >Start</button>
+  <button  onclick="stopGame()" id="stopBtn" class="hidden"  >Stop</button>
 
   <div id = "gameButtonArea">
     <button id = "button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>

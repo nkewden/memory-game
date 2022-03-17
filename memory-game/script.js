@@ -1,18 +1,18 @@
 // global constants
-const clueHoldTime = 50; //how long to hold each clue's light/sound
-const cluePauseTime = 333; //how long to pause in between clues
-const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
+const clueHoldTime = 80; //how long each clue plays for 
+const cluePauseTime = 250; //the time difference between clues
+const nextClueWaitTime = 1000; //time until playback of clue sequence
 
 //Global Variables
-var pattern = [2, 6, 4, 3, 2, 5, 2, 4, 5, 3]; //keeps track of secret pattern button presses
-var progress = 0; //how far along the player is guessing the pattern
-var gamePlaying = false; //boolean: keeps track of whether the game is currently active 
+var pattern = [2, 6, 4, 3, 2, 5, 2, 4, 5, 3]; //stores secret pattern of button presses
+var progress = 0; //stores how far along the player is guessing the pattern
+var gamePlaying = false; //boolean: if game is active
 var tonePlaying = false;
 var volume = 0.7;  
 var guessCounter = 0;
 
+//this function initialize game variables
 function startGame(){
-  //initialize game variables
   progress = 0;
   gamePlaying = true;
   document.getElementById("startBtn").classList.add("hidden");
@@ -20,9 +20,9 @@ function startGame(){
   playClueSequence();
 }
 
+//this function swaps the Start and Stop buttons
 function stopGame(){
   gamePlaying = false;
-  // swap the Start and Stop buttons
   document.getElementById("stopBtn").classList.add("hidden");
   document.getElementById("startBtn").classList.remove("hidden");
 }
@@ -107,14 +107,15 @@ function winGame(){
   alert("Game Over. You Won!");
 }
 
+//logic function to check each guess 
 function guess(btn){
   console.log("user guessed: " + btn);
   if(!gamePlaying){
     return;
   }
   
+  //Guess was correct
   if(pattern[guessCounter] == btn){
-    //Guess was correct!
     if(guessCounter == progress){
       if(progress == pattern.length - 1){
         winGame(); //You win game!
@@ -126,6 +127,6 @@ function guess(btn){
       guessCounter++; //checking the next guess
     }
   }else{
-    loseGame(); //guess is incorrect and you lose
+    loseGame(); //you lose if guess is incorrect
   }
 }
