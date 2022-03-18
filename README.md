@@ -4,7 +4,7 @@
 
 Submitted by: **Nasradin Kewden**
 
-Time spent: **8** hours spent in total
+Time spent: **15** hours spent in total
 
 Link to project: (https://github.com/nkewden/memory-game-prework)
 
