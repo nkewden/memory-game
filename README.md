@@ -61,7 +61,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     [There are many devices today that people use to view websites. Smartphones, laptops, and other devices with varying screen sizes can be used to view websites. In the case of building a website for only PC users, will mobile users see the same screen size or will there be problems? At the end of my memory game, I had this thought because I wanted to play it on my phone. I am also curious about where the information about the website’s passwords and usernames are stored. If I wanted to host a website with basic logins which technologies would I use? I’ve heard of SQL, Django, and PHP and I wonder how they play a role in the functionality of a website. I know their main role is in the backend, but how are they specifically used in the backend? How do they increase the capabilities of a website?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+    [If I had a few more hours to work on this project to add more features, I would make the game more interesting by moving one game button for each guess. So when a player guesses their first button, that specific button will be moved to a different location. This is a great exercise to increase the difficulty. Another feature that I would add is making a rhythm with the sound frequency to link with the guessing. A good example is the piano game, and in this case, the farther your guess the longer the rhythm. This will make the game more immersive for the players and will off balance the difficulty of the extra features if implemented. One last feature I would spend time on is increasing the player's guess by more than one each time. So instead of adding one extra guess each time, I would add maybe 2 or 3 each guess. ]
 
 
 
