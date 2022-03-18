@@ -47,10 +47,12 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+[Think Like A Programmer by V. Anton Spraul
+Learning Web Design by Jennifer Niederst
+w3schools (https://www.w3schools.com/html/html_css.asp)]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[My first attempt at creating the logic for the guess function presented the biggest challenge. In spite of the challenges, it was a great experience, since I learned from every failure. I would run into obstacles occasionally, but they stimulated my mind because trying to solve them gave me satisfaction. Although it was frustrating at the beginning, I knew that I would eventually learn from it. Taking a step by step approach to understanding the logic chart helped me overcome this challenge. It was crucial that I understood every scenario in the flow chart as I visualized it. Additionally, I did some research to find a book that could help me improve my problem-solving skills and came across Think Like A Programmer by V. Anton Spraul. It teaches systemic problem solving in an easy-to-follow manner that's great for beginners. By utilizing these two resources and my dedication, I was able to overcome that challenge through trial and error. A challenge that took me some time to resolve was linking the CSS file with the index HTML file. I developed the memory game in VSCode, my favorite code editor. Having spent quite some time trying different solutions, I turned to the website w3schools for assistance. By specifying ../ in front of the CSS file location, it worked like a charm. At the end of the day, I have gained knowledge that can be applied to future situations as a result of these road blocks.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
