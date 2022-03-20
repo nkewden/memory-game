@@ -29,12 +29,12 @@ function stopGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 200.4,
+  1: 130.4,
   2: 455.2,
-  3: 409.3,
-  4: 330.2,
+  3: 309.3,
+  4: 530.2,
   5: 253.5,
-  6: 333.8
+  6: 633.8
   
 }
 function playTone(btn,len){ 
