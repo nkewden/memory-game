@@ -6,7 +6,7 @@ Submitted by: **Nasradin Kewden**
 
 Time spent: **13** hours spent in total
 
-Link to project: (https://github.com/nkewden/memory-game-prework)
+Link to project: (https://glitch.com/edit/#!/liberating-raspy-pufferfish)
 
 ## Required Functionality
 
