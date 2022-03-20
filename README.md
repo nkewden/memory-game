@@ -4,9 +4,9 @@
 
 Submitted by: **Nasradin Kewden**
 
-Time spent: **13** hours spent in total
+Time spent: **12** hours spent in total
 
-Link to project: (https://github.com/nkewden/memory-game-prework)
+Link to project: (https://glitch.com/edit/#!/liberating-raspy-pufferfish)
 
 ## Required Functionality
 
@@ -39,9 +39,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://i.imgur.com/GUmeeux.gif)
+![](https://i.imgur.com/EnwqplI.gif)
 
-![](https://i.imgur.com/7nuC0t5.gif)
+
+![](https://i.imgur.com/LGrTiLZ.gif)
 
 
 
