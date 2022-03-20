@@ -4,7 +4,7 @@
 
 Submitted by: **Nasradin Kewden**
 
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/liberating-raspy-pufferfish)
 
