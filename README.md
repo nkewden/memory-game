@@ -39,9 +39,21 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://i.imgur.com/EnwqplI.gif)
 
-![](https://i.imgur.com/LGrTiLZ.gif)
+Timer
+![](https://i.imgur.com/nLH2pBE.gif)
+
+3 attempt lost
+![](https://i.imgur.com/ziWqL8G.gif)
+
+More than 4 game buttons
+![](https://i.imgur.com/SL4FaG7.gif)
+
+Speeds up
+![](https://i.imgur.com/f4wfcDf.gif)
+
+
+
 
 
 
