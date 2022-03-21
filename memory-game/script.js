@@ -174,7 +174,7 @@ function guess(btn) {
       loseGame(); // You Lose game
       reset = true;
     } else {
-      alert("Wrong! Attempts left:" + (3 - mistakes));
+      alert("Attempts left:" + (3 - mistakes));
     }
   }
 }
