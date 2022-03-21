@@ -6,10 +6,10 @@ const nextClueWaitTime = 1000; //time until playback of clue sequence
 //Global Variables
 var pattern = [2, 6, 4, 3, 2, 5, 2, 4, 5, 3]; //stores secret pattern of button presses
 var progress = 0; //stores how far along the player is guessing the pattern
-var clueHoldTime = 300; //how long each clue plays for 
+var clueHoldTime = 600; //how long each clue plays for 
 var gamePlaying = false; //boolean: if game is active
 var tonePlaying = false;
-var volume = 0.7;  
+var volume = 0.7;
 var guessCounter = 0;
 var mistakes = 0;
 var count = 10;
@@ -99,19 +99,20 @@ function playSingleClue(btn){
 
 function playClueSequence(){
   guessCounter = 0;
+  mistakes = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
-  for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
+  for(let i = 0;i <= progress; i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
-    delay -= clueHoldTime 
+    delay += clueHoldTime 
     delay += cluePauseTime;
   }
-  clueHoldTime -= 100;
+  clueHoldTime -= 90;
   count = 10;
   reset = false;
 
   clearInterval(timer);
-  timer = setInterval(Timer, 1000);
+  timer = setInterval(Timer, 600);
 }
 
 //decreases the count every one second
